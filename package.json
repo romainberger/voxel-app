@@ -1,0 +1,30 @@
+{
+  "name": "voxel-app",
+  "version": "0.1.0",
+  "description": "Test for a Voxel app",
+  "author": {
+    "name": "Romain Berger",
+    "email": "romain@romainberger.com",
+    "url": "http://romainberger.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:romainberger/voxel-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/romainberger/voxel-app/issues",
+    "email": "romain@romainberger.com"
+  },
+  "main": "src/index.html",
+  "devDependencies": {
+    "voxel-engine": "~0.20.0",
+    "voxel-player": "~0.1.0",
+    "watchify": "~0.5.3",
+    "voxel": "~0.3.1",
+    "connect": "~2.12.0"
+  },
+  "scripts": {
+    "start": "watchify src/index.js -o src/bundle.js"
+  },
+  "license": "MIT"
+}
